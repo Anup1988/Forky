@@ -1,4 +1,5 @@
-// Global App Controller
-import num from "./test";
+import Search from "./models/Search";
 
-console.log(`I imorted ${num} from another module called test.js`);
+const search = new Search("pizza");
+console.log(search);
+search.getResults();
